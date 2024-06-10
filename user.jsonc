@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://schema.fizzlab.io/user.json",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "The ID of the user."
+        },
+        "name": {
+            "type": "string",
+            "description": "The name of the user."
+        },
+        "email": {
+            "type": "string",
+            "description": "The email address of the user.",
+            "pattern": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"
+        }
+    },
+    "required": [
+        "id"
+    ]
+}

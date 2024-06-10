@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://schema.soweb.dev/user.jsonc",
+    "$id": "https://schema.soweb.dev/user.json",
     "type": "object",
     "properties": {
         "id": {

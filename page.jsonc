@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://schema.fizzlab.io/page.json",
+    "$id": "https://schema.soweb.dev/page.jsonc",
     "type": "object",
     "properties": {
         "id": {
@@ -31,7 +31,7 @@
             "format": "uri"
         },
         "meta": {
-            "$ref": "meta.jsonc"
+            "$ref": "https://schema.soweb.dev/meta.jsonc"
         }
     },
     "required": [

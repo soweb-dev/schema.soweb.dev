@@ -4,30 +4,37 @@
     "type": "object",
     "properties": {
         "id": {
-            "type": "string"
+            "type": "string",
+            "description": "The ID of the page."
         },
         "author": {
-            "type": "string"
+            "type": "string",
+            "description": "The ID of the author."
         },
         "date_created": {
             "type": "string",
+            "description": "The date the page was created.",
             "format": "date-time",
             "default": "now"
         },
         "date_modified": {
             "type": "string",
+            "description": "The date the page was last modified.",
             "format": "date-time",
             "default": "now"
         },
         "title": {
-            "type": "string"
+            "type": "string",
+            "description": "The title of the page."
         },
         "slug": {
             "type": "string",
+            "description": "The URL slug of the page.",
             "pattern": "^[a-z0-9-]+$"
         },
         "url": {
             "type": "string",
+            "description": "The complete URL of the page.",
             "format": "uri"
         },
         "meta": {

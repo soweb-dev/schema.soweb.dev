@@ -5,22 +5,26 @@
     "properties": {
         "title": {
             "type": "string",
+            "description": "The meta title of the page.",
             "minLength": 1,
             "maxLength": 100
         },
         "description": {
             "type": "string",
+            "description": "The meta description of the page.",
             "minLength": 1,
             "maxLength": 300
         },
         "keywords": {
             "type": "array",
+            "description": "The meta keywords of the page.",
             "items": {
                 "type": "string"
             }
         },
         "image": {
             "type": "object",
+            "description": "The meta image of the page.",
             "properties": {
                 "url": {
                     "type": "string"
@@ -41,6 +45,7 @@
         },
         "canonical": {
             "type": "string",
+            "description": "The canonical URL of the page.",
             "format": "uri"
         },
         "robots": {
